@@ -34,7 +34,7 @@ I am a developer focused on **Node.js & Python** ecosystems. I specialize in mod
 
 ### 💼 Engineering Experience
 
-#### 1. Ashera - Legacy System Modernization (Private Repo)
+#### 1. SaaS Platform Infrastructure Modernization (Private Repo)
 *Revived a legacy codebase with no documentation and transformed it into a production-ready platform.*
 
 * **Infrastructure Recovery:** The production database was missing. I reverse-engineered the data structure solely from **Prisma ORM** schema definitions and re-initialized a **PostgreSQL (Neon)** instance.
@@ -42,7 +42,7 @@ I am a developer focused on **Node.js & Python** ecosystems. I specialize in mod
 * **Cost Optimization:** Designed a pre-processing logic that summarizes user inputs before sending them to the AI model, reducing token consumption.
 * **Security:** Engineered an **idempotent verification flow** and rate limiting to prevent bot spam during user registration.
 
-#### 2. Badi (Diyojen) - AI Chatbot & Automation SaaS
+#### 2. AI Chatbot & Automation SaaS (Startup Experience)
 *A multi-tenant AI assistant platform for enterprise clients.*
 
 * **Fault-Tolerant AI System:** Built a **3-layer fallback system** that automatically switches providers (**Gemini → OpenAI → DeepSeek**) in case of API outages to ensure uptime.
@@ -51,9 +51,9 @@ I am a developer focused on **Node.js & Python** ecosystems. I specialize in mod
 * **Document AI (File Search):** Integrated **OpenAI Assistants API (File Search)** to allow users to upload PDF/Docx files, enabling the chatbot to answer questions based on custom knowledge bases.
 * **Automation:** Connected the platform to **n8n** workflows for cross-platform messaging and task automation (WhatsApp/Instagram).
 
-<br />
+#### 3. Psychometric Inference Engine (TÜBİTAK R&D Grant)
+*A research-driven platform for analyzing behavioral data, funded by TÜBİTAK 2209-A.*
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=atakanbiyikoglu&show_icons=true&theme=dark&hide_border=true&bg_color=000000" alt="Atakan's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atakanbiyikoglu&layout=compact&theme=dark&hide_border=true&bg_color=000000" alt="Top Languages" />
-</div>
+* **Data-Driven Logic:** Developed a rule-based inference engine that transforms raw psychometric survey data into structured role clusters.
+* **Algorithm Design:** Implemented custom algorithms to process user responses and map them to specific behavioral archetypes with high accuracy.
+* **Web Interface:** Built a responsive web dashboard for data collection and real-time visualization of analysis results.
