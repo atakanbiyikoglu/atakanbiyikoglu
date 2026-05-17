@@ -16,7 +16,7 @@
 ### 🚀 About Me
 I am a developer focused on **Node.js & Python** ecosystems. I specialize in modernizing legacy infrastructures, designing relational database schemas (PostgreSQL), and integrating LLMs (OpenAI, Claude) into real-world applications without over-engineering.
 
-- 🔭 I’m currently working on **AI-Assisted SaaS Platforms**.
+- 🔭 I’m currently working on **Autonomous AI Agents & SaaS Platforms**.
 - ⚡ **Core Philosophy:** "Clean code, scalable database, reliable API."
 
 <br />
@@ -32,17 +32,17 @@ I am a developer focused on **Node.js & Python** ecosystems. I specialize in mod
 
 <br />
 
-### 💼 Engineering Experience
+### 💼 Featured Engineering Work
 
-#### 1. SaaS Platform Infrastructure Modernization (Private Repo)
-*Revived a legacy codebase with no documentation and transformed it into a production-ready platform.*
+#### 1. SaaS Platform Infrastructure Modernization (Private Repo / NDA)
+*Revived a legacy codebase with no documentation and transformed it into a production-ready platform for an early-stage startup.*
 
 * **Infrastructure Recovery:** The production database was missing. I reverse-engineered the data structure solely from **Prisma ORM** schema definitions and re-initialized a **PostgreSQL (Neon)** instance.
 * **CI/CD Pipeline:** Replaced manual processes with an automated deployment pipeline connecting **GitHub** to **Vercel**, managing environment secrets and domain configurations.
 * **Cost Optimization:** Designed a pre-processing logic that summarizes user inputs before sending them to the AI model, reducing token consumption.
 * **Security:** Engineered an **idempotent verification flow** and rate limiting to prevent bot spam during user registration.
 
-#### 2. AI Chatbot & Automation SaaS (Startup Experience)
+#### 2. AI Chatbot & Automation SaaS (Startup Internship)
 *A multi-tenant AI assistant platform for enterprise clients.*
 
 * **Fault-Tolerant AI System:** Built a **3-layer fallback system** that automatically switches providers (**Gemini → OpenAI → DeepSeek**) in case of API outages to ensure uptime.
@@ -51,9 +51,9 @@ I am a developer focused on **Node.js & Python** ecosystems. I specialize in mod
 * **Document AI (File Search):** Integrated **OpenAI Assistants API (File Search)** to allow users to upload PDF/Docx files, enabling the chatbot to answer questions based on custom knowledge bases.
 * **Automation:** Connected the platform to **n8n** workflows for cross-platform messaging and task automation (WhatsApp/Instagram).
 
-#### 3. Psychometric Inference Engine (TÜBİTAK R&D Grant)
-*A research-driven platform for analyzing behavioral data, funded by TÜBİTAK 2209-A.*
+#### 3. AI-Driven Career Architect (TÜBİTAK 2209-A)
+*An end-to-end decision support ecosystem integrating psychometric models with LLMs. [Live Demo: kariyermimari.tech](https://kariyermimari.tech)*
 
-* **Data-Driven Logic:** Developed a rule-based inference engine that transforms raw psychometric survey data into structured role clusters.
+* **LLM Integration:** Integrated RIASEC and OCEAN models with large language models to generate personalized, data-driven career guidance.
+* **Data-Driven Logic:** Developed a rule-based inference engine on **Node.js** that transforms raw psychometric survey data into structured role clusters.
 * **Algorithm Design:** Implemented custom algorithms to process user responses and map them to specific behavioral archetypes with high accuracy.
-* **Web Interface:** Built a responsive web dashboard for data collection and real-time visualization of analysis results.
